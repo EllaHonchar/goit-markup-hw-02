@@ -1,0 +1,122 @@
+:root {
+    --primary-text-color: #757575;
+    --text-hero-title: #ffffff;
+    --title-text-color: #212121;
+    --button-hero-color: #2196F3;
+    --button-hero-activ: #188CE8;
+}
+body {
+    background-color: #F5F5F5;
+    color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    font-family: 'Raleway', sans-serif;
+    color: var(--title-text-color);
+    font-size: 26px;
+    letter-spacing: 3%;
+}
+span {
+    color: var(--button-hero-color);
+}
+.list {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.text {
+    color: var(--primary-text-color);
+    font-size: 14px;
+}
+
+.proff {
+    font-size: 16px;
+}
+.link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.current:hover,
+.current:focus {
+    color: var(--button-hero-color);
+}
+.mail:hover,
+.mail:focus {
+    color: var(--button-hero-color);
+}
+h1 {
+    background-color: #2F303A;
+    color: var(--text-hero-title);
+    font-size: 44px;
+}
+.btn {
+    background-color: var(--button-hero-color);
+    color: var(--text-hero-title);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 6%;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--button-hero-activ);
+}
+h2 {
+    font-size: 36px;
+    letter-spacing: 3%;
+}
+.view {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 3%;
+}
+.feature {
+    font-size: 14px;
+    letter-spacing: 3%;
+}
+.team {
+    font-size: 16px;
+    letter-spacing: 3%;
+}
+footer {
+    background-color: #2F303A;
+}
+.footer {
+    color: var(--text-hero-title);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    letter-spacing: 3%;
+}
+.address {
+    color: var(--text-hero-title);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 3%;
+    font-style: normal;
+}
+.foot {
+    opacity: 60%;
+}
+.filter {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 3%;
+}
+.filter:hover,
+.filter:focus {
+    background-color: var( --button-hero-color);
+    color: var(--text-hero-title);
+}
+.title-project {
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
+}
+.kind-project {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 3%;
+}
+
